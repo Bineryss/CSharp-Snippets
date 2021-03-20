@@ -19,12 +19,15 @@ namespace Lambda_Function_Delegate
             double e = sin(0);
 
 
-            //Lamda in Line, der letzte wert ist der Rueckgabwert
+            //Lamda in Line, der letzte wert ist der Rueckgabwert -> kann auch Methoden Paramter sein
             Func<string, double, double> lambda = (s, d) =>
             {
                 Console.WriteLine(s);
                 return d + 1;
             };
+
+            //Action wie Function nur ohne Rueckgabewert
+            Action<string> actionLambda = s => Console.WriteLine(s);
         }
     }
 }

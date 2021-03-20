@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nice To Know", "Nice To Kno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda Function Delegate", "Lambda Function Delegate\Lambda Function Delegate.csproj", "{09138B9A-A38D-4A91-A1CA-3961126E53F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerator Yield", "Enumerator Yield\Enumerator Yield.csproj", "{EA2063E4-B6EE-4A69-908F-784CF0357031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{63F73E47-DD6D-4E9D-B8E6-602216704CF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +64,13 @@ Global
 		{09138B9A-A38D-4A91-A1CA-3961126E53F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09138B9A-A38D-4A91-A1CA-3961126E53F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09138B9A-A38D-4A91-A1CA-3961126E53F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2063E4-B6EE-4A69-908F-784CF0357031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2063E4-B6EE-4A69-908F-784CF0357031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2063E4-B6EE-4A69-908F-784CF0357031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2063E4-B6EE-4A69-908F-784CF0357031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F73E47-DD6D-4E9D-B8E6-602216704CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F73E47-DD6D-4E9D-B8E6-602216704CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F73E47-DD6D-4E9D-B8E6-602216704CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F73E47-DD6D-4E9D-B8E6-602216704CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
