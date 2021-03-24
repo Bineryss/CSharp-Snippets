@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Nice_To_Know
+﻿namespace Nice_To_Know
 {
     class Program
     {
@@ -14,7 +12,7 @@ namespace Nice_To_Know
 
            string? test = null;
 
-           //-> wird nur ausgefuerht, wenn der wert vor ? nicht null ist!
+           //-> wird nur ausgefuert, wenn der wert vor ? nicht null ist!
            test?.Insert(0,"This");
         }
     }

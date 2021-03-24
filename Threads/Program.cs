@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -68,10 +67,10 @@ namespace Threads
             }
         }
 
-        private void threadPool()
+        private void threadPool(int amount)
         {
             //bestimmt anzahl an threads erstellen
-            int threadCount = 10;
+            int threadCount = amount;
 
             List<Thread> threads = new List<Thread>();
 

@@ -23,7 +23,7 @@ namespace File_IO
             {
                 string oneline;
 
-                oneline = reader.ReadLine(); // null if eof
+                oneline = reader.ReadLine(); // null if end of line
                 while (oneline != null)
                 {
                     headlines.Add(oneline);
@@ -41,7 +41,6 @@ namespace File_IO
                 {
                     writer.WriteLine("club: " + headline);
                 }
-
             }
         }
     }
